@@ -1,24 +1,14 @@
-## 🚀 Next Steps
-
-1. ✅ **Update repository name to `Skirving.github.io`** (Done!)
-2. **Update [`config.json`](https://github.com/Skirving/Skirving.github.io/blob/main/config.json)** with your personal information, experience, and projects and then run [this workflow](https://github.com/Skirving/Skirving.github.io/actions/workflows/update-readme.yml) to update the README
-3. **Replace assets** in the [`assets/`](https://github.com/Skirving/Skirving.github.io/tree/main/assets/) folder with your own logos and project images
-4. **Add "featured" topic** to [GitHub repositories](https://github.com/Skirving?tab=repositories) you want to showcase
-5. **Enable GitHub Pages** in [repository settings](https://github.com/Skirving/Skirving.github.io/settings/pages) to make your portfolio live
-6. **Customize further** by adding more content
-
----
-
 # Skirving - Developer Portfolio
 
 <div align="left">
   
 [![Portfolio](https://img.shields.io/badge/🌐_Visit_Portfolio-Live-brightgreen?style=for-the-badge)](https://Skirving.github.io)
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/Skirving)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](undefined)
 
 </div>
 
-Welcome to my developer portfolio! This website showcases my projects, skills, and professional journey.
+The live portfolio includes detailed professional experience, technical skills and certifications, configurable GitHub projects, achievements, and contact information.
 
 ## ✨ Features
 
@@ -52,6 +42,7 @@ Let's connect and build something amazing together!
 
 - 🌐 **Portfolio**: [https://Skirving.github.io](https://Skirving.github.io)
 - 💻 **GitHub**: [https://github.com/Skirving](https://github.com/Skirving)
+- 🔗 **LinkedIn**: [undefined](undefined)
 
 ---
 
