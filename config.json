@@ -62,8 +62,8 @@
     "title": "Professional Experience",
     "jobs": [
       {
-        "company": "Your Company Name",
-        "role": "Your Job Title",
+        "company": "HATCH",
+        "role": "Vacation Work Internship",
         "date": "Start Date - Present",
         "responsibilities": [
           "Add your key responsibilities and achievements here",
@@ -84,6 +84,11 @@
         "items": [
           "JavaScript",
           "Python",
+          "MATLAB",
+          "Julia",
+          "SQL",
+          "HTML",
+          "Simulink",
           "Java",
           "TypeScript"
         ]
@@ -94,7 +99,11 @@
           "Git",
           "GitHub",
           "VS Code",
-          "Docker"
+          "Google Collab",
+          "KiCAD",
+          "Docker",
+          "FEKO",
+          "Scikit-learn"
         ]
       },
       {
