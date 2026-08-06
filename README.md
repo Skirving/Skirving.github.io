@@ -42,7 +42,7 @@ Let's connect and build something amazing together!
 
 - 🌐 **Portfolio**: [https://Skirving.github.io](https://Skirving.github.io)
 - 💻 **GitHub**: [https://github.com/Skirving](https://github.com/Skirving)
-- 🔗 **LinkedIn**: [Colby Skirving](https://www.linkedin.com/in/colby-skirving-7a610b290)
+- 🔗 **LinkedIn**: [undefined](undefined)
 
 ---
 
