@@ -1,4 +1,4 @@
-# Skirving - Developer Portfolio
+# Hi, I'm Colby Skirving. - Developer Portfolio
 
 <div align="left">
   
@@ -38,7 +38,7 @@ The live portfolio includes detailed professional experience, technical skills a
 
 ## 🤝 Connect
 
-Let's connect and build something amazing together!
+Let's connect and build practical engineering solutions together.
 
 - 🌐 **Portfolio**: [https://Skirving.github.io](https://Skirving.github.io)
 - 💻 **GitHub**: [https://github.com/Skirving](https://github.com/Skirving)
