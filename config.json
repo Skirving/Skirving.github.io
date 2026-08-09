@@ -7,22 +7,22 @@
     "github_projects": true
   },
   "site": {
-    "title": "Skirving",
-    "description": "Developer Portfolio",
+    "title": "Colby Skirving",
+    "description": "Electrical and Computer Engineering Portfolio",
     "seo": {
-      "title": "Skirving - Developer Portfolio",
-      "description": "Developer Portfolio of Skirving",
-      "keywords": "developer, portfolio, github",
-      "author": "Skirving",
+      "title": "Colby Skirving | Electrical & Computer Engineering",
+      "description": "Portfolio of Colby Skirving, a final-year Electrical and Computer Engineering student at the University of Cape Town, focused on AI, automation, embedded systems and practical engineering design.",
+      "keywords": "electrical engineering, computer engineering, embedded systems, AI, automation, MATLAB, Python, CAN bus, medical imaging, portfolio",
+      "author": "Colby Skirving",
       "og_image": "https://avatars.githubusercontent.com/Skirving?s=512",
-      "og_image_alt": "Profile photo of Skirving",
+      "og_image_alt": "Profile photo of Colby Skirving",
       "twitter_card": "summary_large_image",
       "base_url": "https://Skirving.github.io"
     }
   },
   "header": {
-    "greeting": "Skirving",
-    "tagline": "Developer and Creator."
+    "greeting": "Hi, I'm Colby Skirving.",
+    "tagline": "Electrical & Computer Engineering student building practical AI, automation and embedded-systems solutions."
   },
   "social_links": [
     {
@@ -30,49 +30,131 @@
       "url": "https://github.com/Skirving",
       "icon": "github",
       "required": true
+    },
+    {
+      "name": "Email",
+      "url": "mailto:skirvingcolby@gmail.com",
+      "icon": "mail",
+      "required": false
     }
   ],
   "github_username": "Skirving",
   "about": {
     "paragraphs": [
-      "Welcome to my portfolio! I'm passionate about creating amazing digital experiences and solving complex problems through code.",
-      "This portfolio showcases my journey, projects, and skills. Feel free to explore and get in touch if you'd like to collaborate!"
+      "I am a final-year BSc (Eng) Electrical and Computer Engineering student at the University of Cape Town, expecting to complete my degree in December 2026. My final-year average to date is 80.65%, and I was named to the Dean's List in my third year.",
+      "My interests include practical engineering design, AI and automation, embedded systems, computer systems and applied mathematics. I hold British and South African citizenship and will be available for work from January 2027.",
+      "Outside engineering, I play water polo, participate in social squash and enjoy good coffee."
     ]
   },
   "projects": {
     "title": "Featured Projects",
     "items": [
       {
-        "name": "Portfolio Website",
-        "date": "August 5, 2026",
+        "name": "TumorTrace — AI Medical Imaging Venture",
+        "date": "March 2026 – July 2026",
         "description": [
-          "A modern, responsive portfolio website built with vanilla JavaScript",
-          "Features dark/light mode, dynamic content loading, and GitHub integration",
-          "Fully configurable through JSON with automated README generation"
+          "Created a medtech company and product concept called TumorTrace through the EDHE Entrepreneurial Competition.",
+          "Developed an AI-based approach to identify tumours in medical images and classify them as malignant or benign.",
+          "Applied machine-learning and medical-imaging concepts to a practical diagnostic-support problem."
+        ],
+        "picture": "assets/projects/tumortrace.png",
+        "link": {
+          "url": "",
+          "title": "Case study coming soon"
+        }
+      },
+      {
+        "name": "Formula Student South Africa — CAN Bus Sub-team",
+        "date": "2025",
+        "description": [
+          "Founding member of the University of Cape Town Formula Student South Africa team.",
+          "Led the CAN bus sub-team, contributing to the vehicle communication-system workstream.",
+          "Developed experience in collaborative systems engineering within a student motorsport project."
+        ],
+        "picture": "assets/projects/formula-student-can.png",
+        "link": {
+          "url": "",
+          "title": "Project details coming soon"
+        }
+      },
+      {
+        "name": "Automated Cable Schedule Generation",
+        "date": "December 2025 – January 2026",
+        "description": [
+          "Built a MATLAB script during vacation work at HATCH Engineering to automate cable-schedule generation.",
+          "The script supported the cooling-tower scope of a platinum mine project in Zimbabwe.",
+          "Received an award for this automation work; also contributed to load lists and lighting diagrams."
+        ],
+        "picture": "assets/projects/cable-schedule-automation.png",
+        "link": {
+          "url": "",
+          "title": "Professional project summary"
+        }
+      },
+      {
+        "name": "Portfolio Website",
+        "date": "August 2026",
+        "description": [
+          "A responsive engineering portfolio built with vanilla JavaScript and JSON-driven content.",
+          "Includes dynamic content loading, GitHub integration and dark/light mode support.",
+          "Designed as a central place for technical projects, experience and code repositories."
         ],
         "picture": "assets/projects/Placeholder.png",
         "link": {
           "url": "https://Skirving.github.io",
-          "title": "View Live Site"
+          "title": "View live site"
         }
       }
     ]
   },
   "experience": {
-    "title": "Professional Experience",
+    "title": "Professional Experience & Activities",
     "jobs": [
       {
-        "company": "HATCH",
-        "role": "Vacation Work Internship",
-        "date": "Start Date - Present",
+        "company": "HATCH Engineering",
+        "role": "Vacation Work Intern",
+        "date": "December 2025 – January 2026",
         "responsibilities": [
-          "Add your key responsibilities and achievements here",
-          "Include specific technologies you worked with",
-          "Mention any notable projects or impact metrics",
-          "Update this section with your actual work experience"
+          "Completed six weeks of vacation work at the HATCH Engineering offices in Johannesburg.",
+          "Developed an award-winning MATLAB script to automate cable-schedule generation for a platinum-mine cooling tower in Zimbabwe.",
+          "Created load lists and lighting diagrams for engineering deliverables."
         ],
         "logo": "assets/logos/hatch-logo.png",
         "logo_dark": "assets/logos/hatch-logo.png"
+      },
+      {
+        "company": "University of Cape Town",
+        "role": "Engineering Course Tutor",
+        "date": "January 2026 – June 2026",
+        "responsibilities": [
+          "Tutored EEE3089F: Electromagnetic Engineering.",
+          "Tutored MEC1003F: Engineering Drawing.",
+          "Supported students alongside final-year engineering studies."
+        ],
+        "logo": "assets/logos/uct-logo.png",
+        "logo_dark": "assets/logos/uct-logo.png"
+      },
+      {
+        "company": "St Peter's College",
+        "role": "Water Polo Coach",
+        "date": "January 2024 – February 2024",
+        "responsibilities": [
+          "Coached the U14A and U15A boys' water polo teams.",
+          "Helped the teams achieve gold at a local schools tournament."
+        ],
+        "logo": "assets/logos/st-peters-logo.png",
+        "logo_dark": "assets/logos/st-peters-logo.png"
+      },
+      {
+        "company": "University of Cape Town Formula Student South Africa",
+        "role": "CAN Bus Sub-team Lead",
+        "date": "2025",
+        "responsibilities": [
+          "Founding member of the UCT Formula Student South Africa team.",
+          "Led the CAN bus sub-team."
+        ],
+        "logo": "assets/logos/formula-student-uct-logo.png",
+        "logo_dark": "assets/logos/formula-student-uct-logo.png"
       }
     ]
   },
@@ -80,17 +162,18 @@
     "title": "Skills & Technologies",
     "categories": [
       {
-        "name": "Programming Languages & Technologies",
+        "name": "Programming & Engineering Software",
         "items": [
-          "JavaScript",
-          "Python",
           "MATLAB",
-          "Julia",
-          "SQL",
-          "HTML",
           "Simulink",
+          "Python",
+          "C",
+          "C++",
           "Java",
-          "TypeScript"
+          "Julia",
+          "HTML",
+          "HDL",
+          "Verilog"
         ]
       },
       {
@@ -98,22 +181,23 @@
         "items": [
           "Git",
           "GitHub",
+          "Linux",
           "VS Code",
-          "Google Collab",
-          "KiCAD",
-          "Docker",
-          "FEKO",
-          "Scikit-learn"
+          "Arduino",
+          "Google Colab",
+          "Windows 365"
         ]
       },
       {
-        "name": "Certifications",
+        "name": "Technical Focus",
         "items": [
-          {
-            "name": "Add your certification name here",
-            "url": "https://example.com/your-certification-link"
-          },
-          "You can also add certifications without links"
+          "AI and automation",
+          "Convolutional neural networks (CNNs)",
+          "App development",
+          "Engineering design",
+          "CAN bus systems",
+          "Problem solving",
+          "Technical communication"
         ]
       }
     ]
@@ -129,6 +213,6 @@
     "show_social_links": true,
     "show_built_with": true,
     "built_with_text": "Built with ❤️ using vanilla JavaScript",
-    "tagline": "Let's connect and build something amazing together!"
+    "tagline": "Let's connect and build practical engineering solutions together."
   }
 }
