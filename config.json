@@ -12,7 +12,7 @@
     "seo": {
       "title": "Colby Skirving | Electrical & Computer Engineering",
       "description": "Portfolio of Colby Skirving, a final-year Electrical and Computer Engineering student at the University of Cape Town, focused on AI, automation, embedded systems and practical engineering design.",
-      "keywords": "electrical engineering, computer engineering, embedded systems, AI, automation, MATLAB, Python, CAN bus, medical imaging, portfolio",
+      "keywords": "electrical engineering, computer engineering, embedded systems, AI, automation, MATLAB, Python, medical imaging, machine learning, portfolio",
       "author": "Colby Skirving",
       "og_image": "https://avatars.githubusercontent.com/Skirving?s=512",
       "og_image_alt": "Profile photo of Colby Skirving",
@@ -21,8 +21,8 @@
     }
   },
   "header": {
-    "greeting": "Hi, I'm Colby Skirving.",
-    "tagline": "Electrical & Computer Engineering student building practical AI, automation and embedded-systems solutions."
+    "greeting": "Hi, I'm Colby Skirving",
+    "tagline": "Electrical & Computer Engineering student building practical solutions to interesting problems."
   },
   "social_links": [
     {
@@ -42,8 +42,8 @@
   "about": {
     "paragraphs": [
       "I am a final-year BSc (Eng) Electrical and Computer Engineering student at the University of Cape Town, expecting to complete my degree in December 2026. My final-year average to date is 80.65%, and I was named to the Dean's List in my third year.",
-      "My interests include practical engineering design, AI and automation, embedded systems, computer systems and applied mathematics. I hold British and South African citizenship and will be available for work from January 2027.",
-      "Outside engineering, I play water polo, participate in social squash and enjoy good coffee."
+      "My interests include practical engineering design, AI and automation, embedded systems, computer vision systems and machine learning models. I hold British and South African citizenship and will be available for work from January 2027.",
+      "Outside of engineering, I play water polo, participate in social squash and enjoy a good cup of coffee (is there ever a bad one?!)."
     ]
   },
   "projects": {
@@ -55,6 +55,7 @@
         "description": [
           "Created a medtech company and product concept called TumorTrace through the EDHE Entrepreneurial Competition.",
           "Developed an AI-based approach to identify tumours in medical images and classify them as malignant or benign.",
+          "Created an algorithm to take the dimensions of the tumours, removing any error from the images",
           "Applied machine-learning and medical-imaging concepts to a practical diagnostic-support problem."
         ],
         "picture": "assets/projects/tumortrace.png",
@@ -64,25 +65,11 @@
         }
       },
       {
-        "name": "Formula Student South Africa — CAN Bus Sub-team",
-        "date": "2025",
-        "description": [
-          "Founding member of the University of Cape Town Formula Student South Africa team.",
-          "Led the CAN bus sub-team, contributing to the vehicle communication-system workstream.",
-          "Developed experience in collaborative systems engineering within a student motorsport project."
-        ],
-        "picture": "assets/projects/formula-student-can.png",
-        "link": {
-          "url": "",
-          "title": "Project details coming soon"
-        }
-      },
-      {
         "name": "Automated Cable Schedule Generation",
         "date": "December 2025 – January 2026",
         "description": [
           "Built a MATLAB script during vacation work at HATCH Engineering to automate cable-schedule generation.",
-          "The script supported the cooling-tower scope of a platinum mine project in Zimbabwe.",
+          "The script supported the cooling-tower region of a platinum mine project in Zimbabwe.",
           "Received an award for this automation work; also contributed to load lists and lighting diagrams."
         ],
         "picture": "assets/projects/cable-schedule-automation.png",
@@ -127,9 +114,8 @@
         "role": "Engineering Course Tutor",
         "date": "January 2026 – June 2026",
         "responsibilities": [
-          "Tutored EEE3089F: Electromagnetic Engineering.",
-          "Tutored MEC1003F: Engineering Drawing.",
-          "Supported students alongside final-year engineering studies."
+          "Tutored EEE3089F: Electromagnetic Engineering focusing on antena design and basic radar physics.",
+          "Tutored MEC1003F: Engineering Drawing which taught students how to create PCBs using KiCAD"
         ],
         "logo": "assets/logos/uct-logo.png",
         "logo_dark": "assets/logos/uct-logo.png"
@@ -145,17 +131,6 @@
         "logo": "assets/logos/st-peters-logo.png",
         "logo_dark": "assets/logos/st-peters-logo.png"
       },
-      {
-        "company": "University of Cape Town Formula Student South Africa",
-        "role": "CAN Bus Sub-team Lead",
-        "date": "2025",
-        "responsibilities": [
-          "Founding member of the UCT Formula Student South Africa team.",
-          "Led the CAN bus sub-team."
-        ],
-        "logo": "assets/logos/formula-student-uct-logo.png",
-        "logo_dark": "assets/logos/formula-student-uct-logo.png"
-      }
     ]
   },
   "skills": {
@@ -182,9 +157,12 @@
           "Git",
           "GitHub",
           "Linux",
+          "KiCAD",
           "VS Code",
           "Arduino",
           "Google Colab",
+          "FEKO",
+          "STMCube",
           "Windows 365"
         ]
       },
@@ -197,7 +175,8 @@
           "Engineering design",
           "CAN bus systems",
           "Problem solving",
-          "Technical communication"
+          "Technical communication",
+          "3D Printing"
         ]
       }
     ]
