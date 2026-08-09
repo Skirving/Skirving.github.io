@@ -32,17 +32,17 @@
       "required": true
     },
     {
-    "name": "LinkedIn",
-    "url": "https://www.linkedin.com/in/colby-skirving-7a610b290",
-    "icon": "linkedin",
-    "required": false
-  },
-  {
-    "name": "Email",
-    "url": "mailto:skirvingcolby@gmail.com",
-    "icon": "mail",
-    "required": false
-  }
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/colby-skirving-7a610b290",
+      "icon": "linkedin",
+      "required": false
+    },
+    {
+      "name": "Email",
+      "url": "mailto:skirvingcolby@gmail.com",
+      "icon": "mail",
+      "required": false
+    }
   ],
   "github_username": "Skirving",
   "about": {
