@@ -64,7 +64,7 @@
           "Created an algorithm to take the dimensions of the tumours, removing any error from the images",
           "Applied machine-learning and medical-imaging concepts to a practical diagnostic-support problem."
         ],
-        "picture": "/assets/logos/blank.png",
+        "picture": "/assets/logos/TumorTrace.png",
         "link": {
           "url": "",
           "title": "Case study coming soon"
@@ -78,7 +78,7 @@
           "The script supported the cooling-tower region of a platinum mine project in Zimbabwe.",
           "Received an award for this automation work; also contributed to load lists and lighting diagrams."
         ],
-        "picture": "/assets/logos/blank.png",
+        "picture": "",
         "link": {
           "url": "",
           "title": "Professional project summary"
@@ -92,7 +92,7 @@
           "Includes dynamic content loading, GitHub integration and dark/light mode support.",
           "Designed as a central place for technical projects, experience and code repositories."
         ],
-        "picture": "/assets/logos/blank.png",
+        "picture": "",
         "link": {
           "url": "https://Skirving.github.io",
           "title": "View live site"
