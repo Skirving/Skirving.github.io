@@ -9,7 +9,7 @@ export class HeaderManager {
         console.log('Profile image element:', document.querySelector('.profile-img'));
         if (githubUsername) {
             //document.querySelector('.profile-img').src = `https://avatars.githubusercontent.com/${githubUsername}?s=320`;
-            document.querySelector('.profile-img').src = '/assets/logos/profile.jpg';
+            document.querySelector('.profile-img').src = 'https://Skirving.github.io/assets/logos/profile.jpg';
         }
         
         // Update header text
