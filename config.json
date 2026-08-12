@@ -64,7 +64,7 @@
           "Created an algorithm to take the dimensions of the tumours, removing any error from the images",
           "Applied machine-learning and medical-imaging concepts to a practical diagnostic-support problem."
         ],
-        "picture": "/assets/projects/TumorTrace.png",
+        "picture": "/assets/logos/TumorTrace.png",
         "link": {
           "url": "",
           "title": "Case study coming soon"
