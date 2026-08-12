@@ -575,8 +575,10 @@ class HeaderManager {
         const githubUsername = config.github_username || this.extractGithubUsername(config.social_links);
         
         // Update profile image
+        console.log('Profile image element:', document.querySelector('.profile-img'));
         if (githubUsername) {
-            document.querySelector('.profile-img').src = `https://avatars.githubusercontent.com/${githubUsername}?s=320`;
+            //document.querySelector('.profile-img').src = `https://avatars.githubusercontent.com/${githubUsername}?s=320`;
+            document.querySelector('.profile-img').src = 'https://Skirving.github.io/assets/logos/profile.jpg';
         }
         
         // Update header text
