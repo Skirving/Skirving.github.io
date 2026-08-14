@@ -11,7 +11,7 @@
     "description": "Electrical and Computer Engineering Portfolio",
     "seo": {
       "title": "Colby Skirving | Electrical & Computer Engineering",
-      "description": "Portfolio of Colby Skirving, a final-year Electrical and Computer Engineering student at the University of Cape Town, focused on AI, automation, embedded systems and practical engineering design.",
+      "description": "Portfolio of Colby Skirving, a final-year Electrical and Computer Engineering student at the University of Cape Town, focused on AI, automation, embedded systems, biomedical engineering and practical engineering design.",
       "keywords": "electrical engineering, computer engineering, embedded systems, AI, automation, MATLAB, Python, medical imaging, machine learning, portfolio",
       "author": "Colby Skirving",
       "og_image": "/assets/logos/profile.jpg",
@@ -48,8 +48,8 @@
   "about": {
     "paragraphs": [
       "I am a final-year BSc (Eng) Electrical and Computer Engineering student at the University of Cape Town, expecting to complete my degree in December 2026. My final-year average to date is 80.65%, and I was named to the Dean's List in my third year.",
-      "My interests include practical engineering design, AI and automation, embedded systems, computer vision systems and machine learning models. I hold British and South African citizenship and will be available for work from January 2027.",
-      "Outside of engineering, I play water polo, participate in social squash and enjoy a good cup of coffee (is there ever a bad one?!)."
+      "My interests include practical engineering design, AI and automation, embedded systems, computer vision, biomedical engineering and machine learning models. I hold British and South African citizenship and will be available for work from January 2027.",
+      "Outside of engineering, I play water polo, participate in social squash and enjoy a good cup of coffee."
     ]
   },
   "projects": {
@@ -72,7 +72,7 @@
       },
       {
       "name": "Micromouse — Autonomous Maze-Solving Robot",
-      "date": "2026",
+      "date": "2025",
       "description": [
         "Designed and developed a Micromouse robot capable of navigating and solving a maze autonomously.",
         "Integrated embedded hardware, sensors, motor control and software to support real-time navigation.",
@@ -86,7 +86,7 @@
     },
     {
       "name": "Power Board PCB Design",
-      "date": "2025",
+      "date": "April 2026",
       "description": [
         "Designed, simulated and tested a power-management printed circuit board (PCB) for an embedded electronics application.",
         "Developed the circuit schematic and PCB layout in KiCad, with attention to power distribution, component placement, grounding and board-level design constraints.",
