@@ -71,6 +71,65 @@
         }
       },
       {
+      "name": "Micromouse — Autonomous Maze-Solving Robot",
+      "date": "2026",
+      "description": [
+        "Designed and developed a Micromouse robot capable of navigating and solving a maze autonomously.",
+        "Integrated embedded hardware, sensors, motor control and software to support real-time navigation.",
+        "Applied principles of control systems, embedded programming and algorithmic problem solving."
+      ],
+      "picture": "/assets/projects/micromouse.jpg",
+      "link": {
+        "url": "",
+        "title": "Project details coming soon"
+      }
+    },
+    {
+      "name": "Power Board PCB Design",
+      "date": "2025",
+      "description": [
+        "Designed, simulated and tested a power-management printed circuit board (PCB) for an embedded electronics application.",
+        "Developed the circuit schematic and PCB layout in KiCad, with attention to power distribution, component placement, grounding and board-level design constraints.",
+        "Designed the board to provide battery monitoring, pump-control circuitry, and regulated 3.3 V and 5 V DC power rails.",
+        "Prioritised low-noise power delivery to support reliable, high-quality sensor data acquisition.",
+        "Verified individual circuit functions through SPICE simulations before testing the assembled hardware upon manufacture.",
+        "Developed practical experience in power electronics, PCB design, hardware validation and embedded-system integration."
+      ],
+      "picture": "/assets/projects/power-board-pcb.png",
+      "link": {
+        "url": "",
+        "title": "Project details coming soon"
+      }
+    },
+    {
+      "name": "AI-Assisted Job Search Tool",
+      "date": "2026",
+      "description": [
+        "Developed an AI-assisted webscraper tool to improve and streamline the job-search process.",
+        "Used AI workflows to help identify relevant opportunities, organise job-search information and support tailored applications.",
+        "Combined software development, automation and practical user-focused problem solving."
+      ],
+      "picture": "",
+      "link": {
+        "url": "",
+        "title": "Project details coming soon"
+      }
+    },
+    {
+      "name": "Laser-Based Listening Device — Final-Year Thesis",
+      "date": "2026 – Present",
+      "description": [
+        "Current final-year Electrical and Computer Engineering thesis project investigating a laser-based listening device.",
+        "Exploring optical sensing methods that recover audio-related vibration information from a distant surface.",
+        "Combines optics, analogue and digital signal processing, embedded systems and experimental engineering design."
+      ],
+      "picture": "",
+      "link": {
+        "url": "",
+        "title": "Thesis project in progress"
+      }
+    },
+      {
         "name": "Automated Cable Schedule Generation",
         "date": "December 2025 – January 2026",
         "description": [
