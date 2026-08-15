@@ -46,7 +46,7 @@
 
 .cognito-form-wrapper {
   width: 100%;
-  margin-top: 2rem;
+  margin-top: 3rem;
   padding: clamp(1rem, 3vw, 2rem);
   box-sizing: border-box;
   border: 1px solid var(--border-color, #e2e8f0);
