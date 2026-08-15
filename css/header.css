@@ -114,3 +114,61 @@ h1 {
 .header-about p:last-child {
     margin-bottom: 0;
 }
+
+/* =========================
+   Quick section navigation
+   ========================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.quick-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6rem;
+    margin-top: -1.5rem;
+}
+
+.quick-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.55rem 0.85rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-full);
+    background: var(--card-background);
+    color: var(--text-color);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.quick-links a:hover,
+.quick-links a:focus-visible {
+    transform: translateY(-2px);
+    border-color: var(--primary-color);
+    background: var(--primary-color);
+    color: #ffffff;
+    outline: none;
+}
+
+@media (max-width: 520px) {
+    .quick-links {
+        gap: 0.45rem;
+        margin-top: -1rem;
+    }
+
+    .quick-links a {
+        padding: 0.5rem 0.7rem;
+        font-size: 0.82rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .desktop-break {
+        display: none;
+    }
+}
