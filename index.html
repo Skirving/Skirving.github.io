@@ -114,56 +114,68 @@
         </svg>
     </button>
 
+    <!-- new Header -->
     <div class="container content-hidden" id="main-content">
-        <header>
-            <img src="" alt="Profile picture" class="profile-img" loading="eager">
-            <h1></h1>
-            <p class="tagline"></p>
-            <div class="social-links" role="navigation" aria-label="Social links"></div>
-        </header>
+    <header>
+        <img src="" alt="Profile picture" class="profile-img" loading="eager">
+        <h1></h1>
+        <p class="tagline"></p>
+        <div class="social-links" role="navigation" aria-label="Social links"></div>
 
-        <section class="about" aria-label="About me"></section>
+        <!-- Quick links to page sections -->
+        <nav class="quick-links" aria-label="Portfolio navigation">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#featured-projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#github-projects">GitHub</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-        <section class="skills" aria-label="Skills">
-            <h2></h2>
-            <div class="skills-grid"></div>
-        </section>
-        
-        <section class="projects" aria-label="Latest projects">
-            <h2></h2>
-        </section>
+    <section id="about" class="about" aria-label="About me"></section>
 
-        <section class="experience" aria-label="Professional experience">
-            <h2></h2>
-        </section>
+    <section id="skills" class="skills" aria-label="Skills">
+        <h2></h2>
+        <div class="skills-grid"></div>
+    </section>
 
-        <section class="projects-on-github" aria-label="GitHub projects">
-            <h2></h2>
-            <div id="projects" class="projects-grid">
-                <div class="loading" role="status">Loading repositories...</div>
+    <section id="featured-projects" class="projects" aria-label="Latest projects">
+        <h2></h2>
+    </section>
+
+    <section id="experience" class="experience" aria-label="Professional experience">
+        <h2></h2>
+    </section>
+
+    <section id="github-projects" class="projects-on-github" aria-label="GitHub projects">
+        <h2></h2>
+        <div id="projects" class="projects-grid">
+            <div class="loading" role="status">Loading repositories...</div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="contact-section" aria-label="Contact">
+        <div class="contact-content">
+            <h2>Let’s connect.</h2>
+
+            <p class="contact-intro">
+                Interested in discussing graduate opportunities, embedded systems,
+                <br class="desktop-break">
+                AI, automation or engineering projects?
+            </p>
+
+            <div class="cognito-form-wrapper">
+                <script
+                    src="https://www.cognitoforms.com/f/seamless.js"
+                    data-key="UxTqfR2QDE-5L25YgNx4DA"
+                    data-form="1">
+                </script>
             </div>
-        </section>
-
-        <!-- Contact section -->
-        <section id="contact" class="contact-section" aria-label="Contact">
-            <div class="contact-content">
-                
-                <h2>Let’s connect.</h2>
-        
-                <p class="contact-intro">
-                    Interested in discussing graduate opportunities, embedded systems,
-                    AI, automation or engineering projects?<br>
-                </p>
-        
-                <div class="cognito-form-wrapper">
-                    <script
-                        src="https://www.cognitoforms.com/f/seamless.js"
-                        data-key="UxTqfR2QDE-5L25YgNx4DA"
-                        data-form="1">
-                    </script>
-                </div>
-            </div>
-        </section>
+        </div>
+    </section>
+</div>
     
     <!-- Footer -->
     <footer class="footer">
