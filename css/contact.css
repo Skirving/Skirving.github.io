@@ -117,3 +117,10 @@
     display: none;
   }
 }
+
+.contact-section .contact-intro {
+  width: 100%;
+  max-width: 680px;
+  margin: 1.25rem auto 2rem;
+  text-align: center !important;
+}
