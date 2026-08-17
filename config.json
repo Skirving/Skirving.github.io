@@ -4,7 +4,8 @@
     "projects": true,
     "experience": true,
     "skills": true,
-    "github_projects": true
+    "github_projects": true,
+    "hobbies": true
   },
   "site": {
     "title": "Colby Skirving",
