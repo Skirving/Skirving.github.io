@@ -253,6 +253,32 @@
     "max_repos": 6,
     "excluded_repos": []
   },
+
+  "hobbies": {
+  "title": "Beyond Engineering",
+  "intro": "A few of the things I enjoy outside the lab and lecture hall.",
+  "items": [
+    {
+      "name": "Water Polo",
+      "description": "UCT second-team player, former provincial representative, and youth water-polo coach.",
+      "image": "assets/hobbies/water-polo.jpg",
+      "alt": "Colby playing water polo"
+    },
+    {
+      "name": "Social Squash",
+      "description": "A social squash club member and always up for a competitive game.",
+      "image": "assets/hobbies/squash.jpg",
+      "alt": "Colby playing squash"
+    },
+    {
+      "name": "Coffee",
+      "description": "Appreciating a well-made coffee between project deadlines and study sessions.",
+      "image": "assets/hobbies/coffee.jpg",
+      "alt": "Coffee"
+    }
+  ]
+},
+  
   "footer": {
     "show_social_links": true,
     "show_built_with": true,
