@@ -255,7 +255,7 @@
     "excluded_repos": []
   },
 
-  "hobbies": {
+  /* "hobbies": {
   "title": "Beyond Engineering",
   "intro": "A few of the things I enjoy outside the lab and lecture hall.",
   "items": [
@@ -284,7 +284,7 @@
       "alt": "Coffee"
     }
   ]
-},
+},*/
   
   "footer": {
     "show_social_links": true,
