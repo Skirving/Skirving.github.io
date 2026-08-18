@@ -262,25 +262,25 @@
     {
       "name": "Water Polo",
       "description": "UCT second-team player, former provincial representative, and youth water-polo coach.",
-      "image": "assets/hobbies/water-polo.jpg",
+      "image": "assets/hobbies/waterpolo.jpg",
       "alt": "Colby playing water polo"
     },
     {
       "name": "Social Squash",
       "description": "A social squash club member and always up for a competitive game.",
-      "image": "assets/hobbies/squash.jpg",
+      "image": "",
       "alt": "Colby playing squash"
     },
     {
        "name": "Very Amatuer Art",
       "description": "Recently I have taken up art classes for the first time since school.",
-      "image": "assets/hobbies/art.jpg",
+      "image": "assets/hobbies/art.jpeg",
       "alt": "colby's Art"
     },
     {
       "name": "Coffee",
       "description": "Appreciating a well-made coffee between project deadlines and study sessions.",
-      "image": "assets/hobbies/coffee.jpg",
+      "image": "",
       "alt": "Coffee"
     }
   ]
