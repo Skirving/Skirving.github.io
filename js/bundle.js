@@ -47,7 +47,8 @@ class ConfigManager {
             projects: this.config?.projects?.title || 'Projects',
             experience: this.config?.experience?.title || 'Experience',
             skills: this.config?.skills?.title || 'Skills',
-            github_projects: this.config?.github_projects?.title || 'GitHub Projects'
+            github_projects: this.config?.github_projects?.title || 'GitHub Projects',
+            hobbies: this.config?.hobbies?.title || 'Beyond Engineering'
         };
         return titles[sectionKey] || '';
     }
@@ -65,6 +66,8 @@ class ConfigManager {
                 return this.config?.skills?.categories?.length > 0;
             case 'github_projects':
                 return Boolean(this.config?.github_username);
+            case 'hobbies':
+                return this.config?.hobbies?.items?.length > 0;
             default:
                 return true;
         }
@@ -263,6 +266,7 @@ class SectionManager {
             experience: true,
             skills: true,
             github_projects: true,
+            hobbies: true,
             ...config.features
         };
 
@@ -271,6 +275,7 @@ class SectionManager {
         this.toggleSection('experience', features.experience);
         this.toggleSection('skills', features.skills);
         this.toggleSection('projects-on-github', features.github_projects);
+        this.toggleSection('.hobbies-section', features.hobbies);
 
         if (features.about) {
             this.updateAboutSection(config);
@@ -293,6 +298,10 @@ class SectionManager {
             if (githubProjectsTitle) {
                 githubProjectsTitle.textContent = config.github_projects.title;
             }
+        }
+
+        if (features.hobbies) {
+            this.updateHobbiesSection(config);
         }
     }
 
@@ -534,6 +543,62 @@ class SectionManager {
 
         skillsGrid.appendChild(fragment);
     }
+
+    updateHobbiesSection(config) {
+    const hobbiesSection = document.querySelector('.hobbies-section');
+    if (!hobbiesSection) return;
+
+    const titleElement = hobbiesSection.querySelector('.hobbies-heading h2');
+    const introElement = hobbiesSection.querySelector('.hobbies-heading p');
+    const scrollArea = hobbiesSection.querySelector('.hobbies-scroll');
+
+    if (!scrollArea) return;
+
+    if (titleElement) {
+        titleElement.textContent =
+            config.hobbies?.title || 'Beyond Engineering';
+    }
+
+    if (introElement) {
+        introElement.textContent =
+            config.hobbies?.intro ||
+            'A few of the things I enjoy outside the lab and lecture hall.';
+    }
+
+    scrollArea.innerHTML = '';
+
+    const hobbies = Array.isArray(config.hobbies?.items)
+        ? config.hobbies.items
+        : [];
+
+    hobbies.forEach((hobby) => {
+        const card = document.createElement('article');
+        card.className = 'hobby-card';
+
+        const imageUrl = this.safeUrl(hobby.image);
+        const name = this.escapeHtml(hobby.name || 'Hobby');
+        const description = this.escapeHtml(hobby.description || '');
+        const alt = this.escapeHtml(
+            hobby.alt || hobby.name || 'Hobby image'
+        );
+
+        card.innerHTML = `
+            ${imageUrl ? `
+                <img
+                    class="hobby-image"
+                    src="${imageUrl}"
+                    alt="${alt}"
+                    loading="lazy">
+            ` : ''}
+            <div class="hobby-card-content">
+                <h3>${name}</h3>
+                <p>${description}</p>
+            </div>
+        `;
+
+        scrollArea.appendChild(card);
+    });
+}
 
     createSkillCategory(category) {
         const categoryDiv = document.createElement('div');
