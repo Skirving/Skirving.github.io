@@ -65,7 +65,7 @@
           "Created an algorithm to take the dimensions of the tumours, removing any error from the images",
           "Applied machine-learning and medical-imaging concepts to a practical diagnostic-support problem."
         ],
-        "picture": "/assets/logos/TumorTrace.png",
+        "picture": "assets/logos/TumorTrace.png",
         "link": {
           "url": "",
           "title": "Case study coming soon"
@@ -79,7 +79,7 @@
         "Integrated embedded hardware, sensors, motor control and software to support real-time navigation.",
         "Applied principles of control systems, embedded programming and algorithmic problem solving."
       ],
-      "picture": "/assets/projects/micromouse.jpg",
+      "picture": "assets/projects/micromouse.jpg",
       "link": {
         "url": "",
         "title": "Project details coming soon"
@@ -96,7 +96,7 @@
         "Verified individual circuit functions through SPICE simulations before testing the assembled hardware upon manufacture.",
         "Developed practical experience in power electronics, PCB design, hardware validation and embedded-system integration."
       ],
-      "picture": "/assets/projects/power-board-pcb.png",
+      "picture": "assets/projects/power-board-pcb.png",
       "link": {
         "url": "",
         "title": "Project details coming soon"
