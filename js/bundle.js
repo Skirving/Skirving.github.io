@@ -262,6 +262,7 @@ class SectionManager {
             projects: true,
             experience: true,
             skills: true,
+            hobbies: true,
             github_projects: true,
             ...config.features
         };
