@@ -48,7 +48,7 @@
   "github_username": "Skirving",
   "about": {
     "paragraphs": [
-      "I am a final-year BSc (Eng) Electrical and Computer Engineering student at the University of Cape Town, expecting to complete my degree in December 2026. My final-year average to date is 80.65%, and I was named to the Dean's List in my third year.",
+      "I am a final-year BSc (Eng) Electrical and Computer Engineering student at the University of Cape Town, expecting to complete my degree in December 2026. My current final-year average is 80.65%, and I was named on the Dean's List in my third year.",
       "My interests include practical engineering design, AI and automation, embedded systems, computer vision, biomedical engineering and machine learning models. I hold British and South African citizenship and will be available for work from January 2027.",
       "Outside of engineering, I play water polo, participate in social squash and enjoy a good cup of coffee."
     ]
@@ -270,6 +270,12 @@
       "description": "A social squash club member and always up for a competitive game.",
       "image": "assets/hobbies/squash.jpg",
       "alt": "Colby playing squash"
+    },
+    {
+       "name": "Very Amatuer Art",
+      "description": "Recently I have taken up art classes for the first time since school.",
+      "image": "assets/hobbies/art.jpg",
+      "alt": "colby's Art"
     },
     {
       "name": "Coffee",
