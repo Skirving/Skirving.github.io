@@ -47,7 +47,8 @@ class ConfigManager {
             projects: this.config?.projects?.title || 'Projects',
             experience: this.config?.experience?.title || 'Experience',
             skills: this.config?.skills?.title || 'Skills',
-            github_projects: this.config?.github_projects?.title || 'GitHub Projects'
+            github_projects: this.config?.github_projects?.title || 'GitHub Projects',
+            hobbies: ths.config?.hobbies?.title || 'Hobbies'
         };
         return titles[sectionKey] || '';
     }
@@ -263,6 +264,7 @@ class SectionManager {
             experience: true,
             skills: true,
             github_projects: true,
+            hobbies: true,
             ...config.features
         };
 
@@ -293,6 +295,10 @@ class SectionManager {
             if (githubProjectsTitle) {
                 githubProjectsTitle.textContent = config.github_projects.title;
             }
+        }
+
+        if (features.hobbies) {
+            this.updateHobbiesSection(config);
         }
     }
 
