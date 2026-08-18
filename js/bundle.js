@@ -296,6 +296,7 @@ class SectionManager {
                 githubProjectsTitle.textContent = config.github_projects.title;
             }
         }
+
         if (features.hobbies) {
             this.updateHobbiesSection(config);
         }
@@ -504,6 +505,42 @@ class SectionManager {
         return experienceItem;
     }
 
+    updateSkillsSection(config) {
+        const skillsSection = document.querySelector('.skills');
+        if (!skillsSection) return;
+
+        const titleElement = skillsSection.querySelector('h2');
+        if (titleElement) {
+            titleElement.textContent = this.configManager.getSectionTitle('skills');
+        }
+
+        const skillsGrid = skillsSection.querySelector('.skills-grid');
+        if (!skillsGrid) return;
+
+        const fragment = document.createDocumentFragment();
+        skillsGrid.innerHTML = '';
+
+        if (config.skills?.categories?.length) {
+            config.skills.categories.forEach(category => {
+                fragment.appendChild(this.createSkillCategory(category));
+            });
+        } else {
+            const emptyState = document.createElement('div');
+            emptyState.className = 'skill-category';
+            emptyState.innerHTML = `
+                <h3>Your Skills Will Appear Here</h3>
+                <ul>
+                    <li>Add technical skills to config.json</li>
+                    <li>Organize them into categories</li>
+                    <li>Include certifications with links</li>
+                </ul>
+            `;
+            fragment.appendChild(emptyState);
+        }
+
+        skillsGrid.appendChild(fragment);
+    }
+
     updateHobbiesSection(config) {
     const hobbiesSection = document.querySelector('.hobbies-section');
     if (!hobbiesSection) return;
@@ -559,42 +596,6 @@ class SectionManager {
         scrollArea.appendChild(card);
     });
 }
-
-    updateSkillsSection(config) {
-        const skillsSection = document.querySelector('.skills');
-        if (!skillsSection) return;
-
-        const titleElement = skillsSection.querySelector('h2');
-        if (titleElement) {
-            titleElement.textContent = this.configManager.getSectionTitle('skills');
-        }
-
-        const skillsGrid = skillsSection.querySelector('.skills-grid');
-        if (!skillsGrid) return;
-
-        const fragment = document.createDocumentFragment();
-        skillsGrid.innerHTML = '';
-
-        if (config.skills?.categories?.length) {
-            config.skills.categories.forEach(category => {
-                fragment.appendChild(this.createSkillCategory(category));
-            });
-        } else {
-            const emptyState = document.createElement('div');
-            emptyState.className = 'skill-category';
-            emptyState.innerHTML = `
-                <h3>Your Skills Will Appear Here</h3>
-                <ul>
-                    <li>Add technical skills to config.json</li>
-                    <li>Organize them into categories</li>
-                    <li>Include certifications with links</li>
-                </ul>
-            `;
-            fragment.appendChild(emptyState);
-        }
-
-        skillsGrid.appendChild(fragment);
-    }
 
     createSkillCategory(category) {
         const categoryDiv = document.createElement('div');
